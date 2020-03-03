@@ -24,7 +24,7 @@ dependencies:
   - geoviews
   - hvplot
   - datashader
-  - matplotlib
+  - matplotlib-base
   - contextily
   - ipyleaflet
 # IO
