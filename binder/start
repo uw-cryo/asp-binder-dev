@@ -2,8 +2,7 @@
 
 # ==== ONLY EDIT WITHIN THIS BLOCK =====
 
-export MY_ENV_VAR="myValue"
+export PATH=$PATH:/srv/StereoPipeline/bin
 
 # ==== ONLY EDIT WITHIN THIS BLOCK =====
-
 exec "$@"

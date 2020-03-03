@@ -1,6 +1,49 @@
-name: pangeo
+name: asp
 channels:
   - conda-forge
 dependencies:
   - python=3.7
   - pangeo-notebook=0.0.2
+  - python-graphviz=0.13
+  - pip=20
+# Raster
+  - xarray
+  - h5py
+  - h5netcdf
+  - rasterio
+  - rio-cogeo
+  - mercantile
+  - rioxarray
+# Vector
+  - pandas
+  - geopandas
+  - fiona
+  - shapely
+# Viz
+  - holoviews
+  - geoviews
+  - hvplot
+  - datashader
+  - matplotlib
+  - contextily
+  - ipyleaflet
+# IO
+  - s3fs
+  - gcsfs
+  - intake
+  - intake-xarray
+  - zarr
+  - sat-search
+# Misc
+  - nomkl
+  - ipykernel
+  - nb_conda_kernels
+  - boto3
+  - awscli
+  - requests
+  - planet
+  - pip:
+    - porder
+    - pygeotools
+    - git+https://github.com/dshean/imview.git
+    - git+https://github.com/dshean/demcoreg.git
