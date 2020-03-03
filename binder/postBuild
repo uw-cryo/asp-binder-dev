@@ -8,10 +8,14 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager \
                              dask-labextension
 
 # Install Ames stereo pipeline binary (~200Mb)
+# Development builds:
 #e.g. https://byss.arc.nasa.gov/stereopipeline/daily_build/StereoPipeline-2.6.2_post-2019-11-20-x86_64-Linux.tar.bz2
-DATE='2019-11-20'
-VERSION="2.6.2_post"
-NAME=StereoPipeline-$VERSION-$DATE-x86_64-Linux
+#https://byss.arc.nasa.gov/stereopipeline/daily_build/StereoPipeline-2.6.2_post-2019-12-16-x86_64-Linux.tar.bz2
+# Stable build:
+#https://github.com/NeoGeographyToolkit/StereoPipeline/releases/download/v2.6.2/StereoPipeline-2.6.2-2019-06-17-x86_64-Linux.tar.bz2
+POSTDATE='post-2019-12-16'
+VERSION="2.6.2"
+NAME=StereoPipeline-${VERSION}_${POSTDATE}-x86_64-Linux
 wget -q https://byss.arc.nasa.gov/stereopipeline/daily_build/$NAME.tar.bz2
 tar -xjf $NAME.tar.bz2
 mv $NAME /srv/StereoPipeline
