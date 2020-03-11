@@ -1,4 +1,4 @@
-# pangeodev-binder
+# New build of ASP for Pangeo Binder
 
 #### Launch on pangeo binders
 [![badge](https://img.shields.io/static/v1.svg?logo=Jupyter&label=Pangeo+Binder&message=GCE+us-central1&color=blue)](https://binder.pangeo.io/v2/gh/uw-cryo/asp-binder-dev/master?urlpath=lab)
