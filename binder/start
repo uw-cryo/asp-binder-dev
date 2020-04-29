@@ -1,6 +1,10 @@
 #!/bin/bash -l
 
 # ==== ONLY EDIT WITHIN THIS BLOCK =====
+# Install DShean tools
+pip install -e git+https://github.com/dshean/demcoreg.git#egg=demcoreg --src /srv/dshean
+pip install -e git+https://github.com/dshean/pygeotools.git#egg=pygeotools --src /srv/dshean
+pip install -e git+https://github.com/dshean/imview.git#egg=imview --src /srv/dshean
 
 export PATH=$PATH:/srv/StereoPipeline/bin:/srv/dshean/pygeotools/pygeotools:/srv/dshean/demcoreg/demcoreg:/srv/dshean/imview/imview
 
