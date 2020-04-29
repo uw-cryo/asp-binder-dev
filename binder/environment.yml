@@ -44,6 +44,3 @@ dependencies:
   - planet
   - pip:
     - porder
-    - pygeotools
-    - git+https://github.com/dshean/imview.git
-    - git+https://github.com/dshean/demcoreg.git
