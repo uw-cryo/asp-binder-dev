@@ -2,7 +2,7 @@
 
 # ==== ONLY EDIT WITHIN THIS BLOCK =====
 
-export PATH=$PATH:/srv/StereoPipeline/bin
+export PATH=$PATH:/srv/StereoPipeline/bin:/srv/dshean/pygeotools/pygeotools:/srv/dshean/demcoreg/demcoreg:/srv/dshean/imview/imview
 
 # ==== ONLY EDIT WITHIN THIS BLOCK =====
 exec "$@"
