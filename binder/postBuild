@@ -7,13 +7,6 @@ jupyter labextension install @jupyter-widgets/jupyterlab-manager \
                              jupyter-leaflet \
                              dask-labextension
 
-
-# Install DShean tools
-pip install -e git+https://github.com/dshean/demcoreg.git#egg=demcoreg --src /srv/dshean
-pip install -e git+https://github.com/dshean/pygeotools.git#egg=pygeotools --src /srv/dshean
-pip install -e git+https://github.com/dshean/imview.git#egg=imview --src /srv/dshean
-# add executable folders to PATH in start script
-
 # Install Ames stereo pipeline binary (~200Mb)
 # Development builds:
 #e.g. https://byss.arc.nasa.gov/stereopipeline/daily_build/StereoPipeline-2.6.2_post-2019-11-20-x86_64-Linux.tar.bz2
